@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_per_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单个请求测试"/>
+    <Button
+        android:id="@+id/btn_pre_multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多个请求测试"/>
+</LinearLayout>
