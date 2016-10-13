@@ -7,7 +7,6 @@
 
 <code>
  checkPermission(new CheckPermListener() {
- 
                     @Override
                     public void Granted() {
                     
