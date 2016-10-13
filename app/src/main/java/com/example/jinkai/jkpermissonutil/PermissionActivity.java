@@ -10,7 +10,7 @@ import java.util.List;
  * Created by jinkai on 2016/10/13.
  */
 
-public class PermissionActicity extends AppCompatActivity implements PermissionUtil.PermissionCallbacks {
+public class PermissionActivity extends AppCompatActivity implements PermissionUtil.PermissionCallbacks {
     protected static final int RC_PERM = 123;
     /**
      * 权限回调接口

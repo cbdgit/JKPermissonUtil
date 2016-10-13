@@ -39,7 +39,7 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_per_single:
-                ((PermissionActicity) getActivity()).checkPermission(new PermissionActicity.CheckPermListener() {
+                ((PermissionActivity) getActivity()).checkPermission(new PermissionActivity.CheckPermListener() {
                     @Override
                     public void Granted() {
                         Toast.makeText(getContext(), "通过", Toast.LENGTH_SHORT).show();
@@ -53,7 +53,7 @@ public class MainActivityFragment extends Fragment implements View.OnClickListen
                 }, "请求获取照相机权限", Manifest.permission.CAMERA);
                 break;
             case R.id.btn_pre_multi:
-                ((PermissionActicity) getActivity()).checkPermission(new PermissionActicity.CheckPermListener() {
+                ((PermissionActivity) getActivity()).checkPermission(new PermissionActivity.CheckPermListener() {
                     @Override
                     public void Granted() {
                         Toast.makeText(getContext(), "通过", Toast.LENGTH_SHORT).show();

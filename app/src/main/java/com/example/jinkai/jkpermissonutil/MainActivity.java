@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import java.util.List;
 
-public class MainActivity extends PermissionActicity implements View.OnClickListener {
+public class MainActivity extends PermissionActivity implements View.OnClickListener {
     private Button btnPreSingle, btnPreMulti, btnFrag;
     private FrameLayout fl;
 
