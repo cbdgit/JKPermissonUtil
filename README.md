@@ -2,8 +2,8 @@
 
 ① 继承PermissionActivity
    </br>或者添加PermissionActivity中权限部分代码到自己的activity父类中。
-② 添加所需权限到manifest
-③ 在需要判断权限的地方调用checkPermission
+</br>② 添加所需权限到manifest
+</br>③ 在需要判断权限的地方调用checkPermission
 
 <code>
  checkPermission(new CheckPermListener() {
